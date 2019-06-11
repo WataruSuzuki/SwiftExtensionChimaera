@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "SwiftExtensionChimera"
-  s.version      = "0.0.2"
+  s.version      = "0.0.3"
   s.summary      = "A pod of Swift Extension Chimera."
   s.homepage     = "https://github.com/WataruSuzuki"
   s.license      = "MIT License"

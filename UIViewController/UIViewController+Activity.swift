@@ -13,9 +13,9 @@ extension UIViewController {
     static public func getActivityViewController(items: [Any]) -> UIActivityViewController {
         let contoller = UIActivityViewController(activityItems: items, applicationActivities: nil)
         contoller.excludedActivityTypes = [
-            UIActivityType.postToWeibo,
-            UIActivityType.saveToCameraRoll,
-            UIActivityType.print
+            UIActivity.ActivityType.postToWeibo,
+            UIActivity.ActivityType.saveToCameraRoll,
+            UIActivity.ActivityType.print
         ]
 
         return contoller

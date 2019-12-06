@@ -10,7 +10,7 @@ import Foundation
 
 extension String {
     // set `lower = false` in case you want "UpperCamel" output.
-    func camelized(lower: Bool = true) -> String {
+    public func camelized(lower: Bool = true) -> String {
         guard self != "" else { return self }
 
         let words = lowercased().split(separator: "_").map({ String($0) })

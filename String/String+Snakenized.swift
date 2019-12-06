@@ -9,7 +9,7 @@
 import Foundation
 
 extension String {
-    var snakenized: String {
+    public var snakenized: String {
         // Ensure the first letter is capital
         let head = String(prefix(1))
         let tail = String(suffix(count - 1))

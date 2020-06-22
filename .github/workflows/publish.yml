@@ -13,6 +13,6 @@ jobs:
     - uses: actions/checkout@v1
 
     - name: Publish cocoapods
-      run: pod trunk push SwiftExtensionChimera.podspec --allow-warnings
+      run: pod trunk push SwiftExtensionChimaera.podspec --allow-warnings
       env:
         COCOAPODS_TRUNK_TOKEN: ${{ secrets.COCOAPODS_TRUNK_TOKEN }}
